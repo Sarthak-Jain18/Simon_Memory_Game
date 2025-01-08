@@ -1,0 +1,110 @@
+body{
+    overflow: hidden;
+}
+
+.rule{
+    position: absolute;
+    z-index: 2;
+}
+.rule p{
+    font-size: 1rem;
+    text-align: left;
+    line-height: 2rem;
+}
+.rule button{
+    background-color: #F4F4F4;
+    cursor: pointer;
+}
+
+.main{
+    position: relative;
+    z-index: 1;
+    filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1, h2, h4{
+    text-align: center;
+    margin: 0.5rem 0;
+}
+.btn_start{
+    margin: 0.5rem 0rem;
+    cursor: pointer;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: #e5e5e5;
+    border-radius: 10%;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.box1:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+#a {
+    background-color: #FF6F61;
+}
+
+#b {
+    background-color: #4A90E2;
+}
+
+#c {
+    background-color: #F5A623;
+}
+
+#d {
+    background-color: #7ED321;
+}  
+
+@media (max-width: 1000px){
+    .box{
+        height: 300px;
+        width: 300px;
+    }
+    .box1{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 450px){
+    h2{
+        font-size: 1rem;;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+

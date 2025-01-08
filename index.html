@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets\logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>SIMON MEMORY GAME</title>
+</head>
+<body>
+    <div class="rule">
+        <p>🕹️ How to Play</p>
+        <p>
+            <ul>
+                <li>🚦 The game starts with a single color flashing.</li>
+                <li>🧠 Remember the sequence of the flashing colors.</li>
+                <li>🎯 Click the colors in the same order.</li>
+                <li>🌟 With each round, a new color is added to the sequence, making it progressively harder.</li>
+                <li>❌ The game ends when you click the wrong color or fail to replicate the sequence correctly.</li>
+            </ul>
+            <p>Try to see how long you can keep up without making a mistake! GOOD LUCK 🎉</p>
+        </p>
+        <button id="ok">PLAY</button>
+    </div>
+    <div class="main">
+        <h1>SIMON MEMORY GAME</h1>
+        <h2>‼️ Let's Go ‼️</h2>
+        <button class="btn_start">Start</button>
+        <div class="container">
+            <div class="box">
+                <div class="box1" id="a" type="button"></div>
+                <div class="box1" id="b" type="button"></div>
+                <div class="box1" id="c" type="button"></div>
+                <div class="box1" id="d" type="button"></div>
+            </div>
+        </div>
+        <h4>Highest Score: 0</h4>
+        <audio id="clickSound" src="assets\click-21156.mp3" preload="auto"></audio>
+        <audio id="errorSound" src="assets\error-170796.mp3" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
