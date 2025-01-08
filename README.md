@@ -44,4 +44,5 @@ While building the Simon Memory Game, the following concepts and skills were rei
 - 🎨 Responsive Design: Ensuring compatibility across various devices.
 - 🔊 Media Integration: Incorporating audio feedback for enhanced user experience.
 - 🛠️ Debugging: Identifying and resolving issues during development.
+
 This project served as a valuable exercise in combining creative design with functional programming.
